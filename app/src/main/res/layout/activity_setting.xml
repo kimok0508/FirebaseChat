@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/set_edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your name."
+        android:maxLines="1"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/set_edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="your profile image url"
+        android:maxLines="1"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/set_btn_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter test rooms" />
+</LinearLayout>
